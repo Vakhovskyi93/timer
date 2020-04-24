@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="https://kit.fontawesome.com/be92ba482f.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Optional theme
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="flex_row"> 
+            <button data-time="20" data-der="321" class="timer_button"> 20sec</button>
+            <button data-time="300" class="timer_button"> 5min</button>
+            <button data-time="900" class="timer_button"> 15min</button>
+            <button data-time="1200" class="timer_button"> 20min</button>
+            <button data-time="3600" class="timer_button"> 1hour</button>
+            <form action="" class="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="enter Minutes">
+            </form>
+        </div>    
+        <div class="display">
+            <h1 class="display_time_left"></h1>
+            <p class="display_end_time"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
